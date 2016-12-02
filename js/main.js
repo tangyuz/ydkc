@@ -1,5 +1,5 @@
 
-if(/index/.test(location.href)){
+
 	
 
 	alert(1)
@@ -16,24 +16,24 @@ if(/index/.test(location.href)){
  	autoPlay: true
 		});
 		alert(2)
-//		jQuery(".focusBox").slide({
-//		    titCell: ".num li",
-//		    mainCell: ".pic",
-//		    effect: "fold",
-//		    autoPlay: true,
-//		    trigger: "click",
-//		    startFun: function(i) {
-//		        jQuery(".focusBox .txts li").eq(i).animate({
-//		            "bottom": 0
-//		        }).siblings().animate({
-//		            "bottom": -36
-//		        });
-//		    }
-//		});
+		jQuery(".focusBox").slide({
+		    titCell: ".num li",
+		    mainCell: ".pic",
+		    effect: "fold",
+		    autoPlay: true,
+		    trigger: "click",
+		    startFun: function(i) {
+		        jQuery(".focusBox .txts li").eq(i).animate({
+		            "bottom": 0
+		        }).siblings().animate({
+		            "bottom": -36
+		        });
+		    }
+		});
 		alert(3)
 	
 		
-}
+
 
 //if(/aboutus/.test(location.href)){
 //	$("#header").load("head.html",function(){
