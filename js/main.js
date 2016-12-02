@@ -1,8 +1,8 @@
 
 
 	
-
-	alert(1)
+if(/index/.test(location.href)){
+	
 	
 		$("#header").load("head.html",function(){
 			})
@@ -15,7 +15,7 @@
   	mainCell: ".bd ul",
  	autoPlay: true
 		});
-		alert(2)
+		
 	$(".focusBox").slide({
 		    titCell: ".num li",
 		    mainCell: ".pic",
@@ -30,7 +30,9 @@
 		        });
 		    }
 		});
-		alert(3)
+	
+	
+}
 	
 		
 
