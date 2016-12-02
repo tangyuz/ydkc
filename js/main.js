@@ -10,10 +10,10 @@
 //	  	})
 	
    
-//	$(".slideBox").slide({
-//  	mainCell: ".bd ul",
-//  	autoPlay: true
-//		});
+	$(".slideBox").slide({
+  	mainCell: ".bd ul",
+ 	autoPlay: true
+		});
 //		jQuery(".focusBox").slide({
 //		    titCell: ".num li",
 //		    mainCell: ".pic",
