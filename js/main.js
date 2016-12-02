@@ -14,6 +14,7 @@
   	mainCell: ".bd ul",
  	autoPlay: true
 		});
+		alert(2)
 //		jQuery(".focusBox").slide({
 //		    titCell: ".num li",
 //		    mainCell: ".pic",
