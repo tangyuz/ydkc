@@ -1,8 +1,8 @@
 
-
-	if(/index/.test(location.href)){
-	alert(1)
-	}
+alert(1)
+//	if(/index/.test(location.href)){
+//	alert(1)
+//	}
 ////		$("#header").load("head.html",function(){
 ////			})
 ////	
