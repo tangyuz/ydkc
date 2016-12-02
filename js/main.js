@@ -3,7 +3,7 @@
 	
 
 	
-	alert(1)
+	console.log(1)
 		$("#header").load("head.html",function(){
 			})
 	
@@ -15,7 +15,7 @@
   	mainCell: ".bd ul",
  	autoPlay: true
 		});
-		alert(2)
+		console.log(2)
 	$(".focusBox").slide({
 		    titCell: ".num li",
 		    mainCell: ".pic",
@@ -30,7 +30,7 @@
 		        });
 		    }
 		});
-	alert(3)
+	console.log(3)
 	
 
 	
